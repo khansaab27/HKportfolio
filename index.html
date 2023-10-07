@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/36cd78d7db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<!--header-starts-->
+<div id="header">
+   <div class="container">
+      <nav >
+         <img src="images/AKhans industries logo.png"  class="logo">
+         <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-bars" onclick="closemenu()"></i>
+         </ul>
+         <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+         <p>Web Developer</p>
+         <h1>Hi, I'm <span class="role">Hammad</span><br>Khan from India</h1>
+      </div>
+      </div>
+   </div>
+
+
+<!--header-ends-->
+
+
+<!--About-me-starts-->
+
+<div id="about">
+   <div class="container">
+      <div class="row">
+         <div class="about-col-1">
+            <img src="images/HK productions logo.png">
+         </div>
+         <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet possimus, illum ea eligendi laboriosam maiores fuga at quaerat repellendus voluptatum voluptates delectus dignissimos aut autem quo nesciunt asperiores eius fugiat.</p>
+            <div class="tab-titles">
+               <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+               <p class="tab-links" onclick="opentab('experience')">Experience</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+               <ul>
+                  <li><span>Graphic designer</span><br>Designing illustrations</li>
+                  <li><span>Web Development</span><br>Web app Development</li>
+                  <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+               </ul>               
+            </div>
+            <div class="tab-contents" id="experience">
+               <ul>
+                  <li><span> Jan/2023 - May/2023</span><br>Illustration Training at INSD Institute</li>
+                  <li><span>July/2023 - Aug/2023</span><br>Web Development Training at INSD Institute</li>
+                  <li><span>Sep/2023 - Current</span><br>Designing Web/App interfaces at INSD Institute</li>
+               </ul>               
+            </div>
+            <div class="tab-contents" id="education">
+               <ul>
+                  <li><span>1st Year</span><br>Illustration Training at INSD Institute</li>
+                  <li><span>2nd Year</span><br>Web Development Training at INSD Institute</li>
+                  <li><span>2nd Year</span><br>Designing Web/App interfaces at INSD Institute</li>
+               </ul>               
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<!--About-me-ends-->
+
+
+<!--My-Services-starts-->
+
+<div id="services">
+   <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="service-list">
+         <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Illustration Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, omnis, similique doloremque nam molestias, ut labore laudantium optio minima nisi alias! Non vitae aliquam consequatur explicabo? Ut tempora ipsum nam.</p>
+            <a href="#">Learn More</a>
+         </div>
+         <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, omnis, similique doloremque nam molestias, ut labore laudantium optio minima nisi alias! Non vitae aliquam consequatur explicabo? Ut tempora ipsum nam.</p>
+            <a href="#">Learn More</a>
+         </div>
+         <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, omnis, similique doloremque nam molestias, ut labore laudantium optio minima nisi alias! Non vitae aliquam consequatur explicabo? Ut tempora ipsum nam.</p>
+            <a href="#">Learn More</a>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<!--My-Services-ends-->
+
+
+<!--My-Portfolio-starts-->
+
+
+<div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+         <div class="work">
+            <img src="images/pen tool {cartoons}-10.png">
+            <div class="layer">
+               <h3>Doraemon Illustration</h3>
+               <p>Doraemon (ドラえもん) is a Japanese manga series written and illustrated by Fujiko F. Fujio.</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/pen tool {cartoons}-11.png">
+            <div class="layer">
+               <h3>Bart illustration</h3>
+               <p>"Bart" Simpson[1] is a fictional character in the American animated television series The Simpsons and part of the Simpson family.</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/pen tool {cartoons}-12.png">
+            <div class="layer">
+               <h3>Monster Cartoon</h3>
+               <p>This Monster Cartoon is a Monster Series illustrated by Hammad</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+   </div>
+</div>
+
+
+<!--My-Portfolio-ends-->
+
+
+<!--My-Contact-starts-->
+
+<div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>hkkhansahab@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>2233004488</p>
+            <div class="social-icons">
+               <a href=""><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Photoshop Portfolio.pdf" download class="btn btn2">Downloadd portfolio</a>
+         </div>
+         <div class="contact-right">
+            <form>
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="email" placeholder="Your Email" required>
+               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+         </div>
+      </div>
+   </div>
+   <div class="copyright">
+      <p>Copyright © Hammad. Made with <i class="fa-solid fa-heart"></i> For Portfolio</p>
+   </div>
+</div>
+
+
+
+<!--My-Contact-ends-->
+
+
+<!--back to top-starts-->
+
+<div id="top">
+<span id="top-values"><a href=""><i class="fa-solid fa-arrow-up"></i></a></span>
+</div>
+
+<!--back to top-ends-->
+
+
+<script src="scrollreveal.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
